@@ -153,6 +153,29 @@ python app.py
 - Ensure file format is PDF, DOCX, or TXT
 - Try a different file
 
+## 🚀 Deployment
+
+### Deploy to Render (Recommended)
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+**Quick Steps:**
+1. Push code to GitHub
+2. Create new Web Service on Render
+3. Connect your GitHub repo
+4. Add `GOOGLE_API_KEY` environment variable
+5. Deploy!
+
+Your app will be live at: `https://your-app-name.onrender.com`
+
+### Deploy to Other Platforms
+
+The app can also be deployed to:
+- **Heroku**: Use the included `Procfile`
+- **Railway**: Auto-detects Flask apps
+- **PythonAnywhere**: Upload files and configure WSGI
+- **Google Cloud Run**: Containerize with Docker
+
 ## 📧 Support
 
 For issues or questions, please open an issue on GitHub.
